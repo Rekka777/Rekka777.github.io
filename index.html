@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Tampa Bay Convention Center :: Reservations</title>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Sansita" rel="stylesheet">
+        <style>
+            #wrapper {  width: 1000px;
+                        margin-left: auto;
+                        margin-right: auto;
+                        background-color: lightpink;
+                        background-repeat: no-repeat;
+            }
+            .div1 {     border: 3px solid black;
+                        background-color: mediumpurple;
+                        padding-bottom: 20px;}
+            body {      font-family: 'Sansita', sans-serif;}
+            header {    text-align: center;}
+            main {      text-align: center;
+                        position: relative;
+                        margin-left: 200px;
+                        margin-right: 200px;
+                        bottom: 50px;}
+            tr:nth-of-type(even){background-color: #ea81bc;}
+            tr:nth-of-type(odd){background-color: #ebcdf2}
+            table {     margin-left:120px;}
+            footer {    font-size: 10px;
+                        font-style: italic;
+                        text-align: center;
+                        margin-left: 200px;
+                        margin-right: 200px;
+                        padding-top: 30px;
+                        position: absolute;
+                        top: 880px;}
+            .sale {     font-weight: bold;
+                        color: darkred;
+                        font-size: 40px;
+                        position: relative;
+                        left: 480px;
+                        bottom: 150px;
+                        transform: rotate(20deg);}
+            .moveDown { margin-top: 20px;}
+            nav {       position:relative;}
+            nav ul ul { position: absolute;
+                        background-color: #5564A0;
+                        padding: 0;
+                        text-align: left;
+                        display: none;}
+            nav ul ul li {  border: 1px solid #00005D;
+                            display: block;
+                            width: 7em;
+                            padding-left: 1em;
+                            margin-left: 0;}
+            nav li:hover ul {display: block;}
+        </style>
+    </head>
+    <body id="wrapper">
+    <div class="div1">
+        <header>
+            <nav>
+            <ul>
+                <li><a href="main.html">Main</a>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="scheduling.html">Scheduling</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                    </ul>
+                </li>
+                <li><a href="location.html">Location</a>
+                    <ul>
+                        <li><a href="history.html">History</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="hotelparking.html">Hotels and Parking</a></li>
+                    </ul>
+                </li>
+                <li><a href="gallery.html">Gallery</a>
+                    <ul>
+                        <li><a href="videos.html">Videos</a></li>
+                        <li><a href="photos.html">Photos</a></li>
+                    </ul>
+                </li>
+                <li><a href="aboutus.html">About Us</a>
+                    <ul>
+                        <li><a href="testimonies.html">Testimonies</a></li>
+                        <li><a href="members.html">Members</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </li>
+            </ul>
+            </nav>
+            <h1>Tampa Bay Convention Center Reservations</h1>
+            <p class="sale">SUMMER SALE!</p>
+        </header>
+        <main>
+            <p>The Tampa Bay Convention Center is a 600,000 square feet large venue located in 
+                downtown Tampa, Florida, and has been used for many events. The building also
+                has the ability to make use of the bay to allow freight access.
+            <img class="moveDown" src="http://sites.uci.edu/energyobserver/files/2012/11/Tampa-convention-center.jpg"
+                width="590" height="200" alt="Tampa Bay Convention Center Photo"></p>
+            <iframe class="moveDown" width="640" height="360" src="https://www.youtube.com/embed/gr6JiYGXQc4" frameborder="0" allowfullscreen></iframe>
+            <table class="moveDown" border="4">
+                <tr>
+                    <th></th>
+                    <th>Standard</th>
+                    <th>Platinum</th>
+                    <th>Diamond</th>
+                </tr>
+                <tr>
+                    <th>Entertainment</th>
+                    <td><s>$200</s> $180</td>
+                    <td><s>$500</s> $450</td>
+                    <td><s>$1200</s> $1080</td>
+                </tr>
+                <tr>
+                    <th>Food</th>
+                    <td><s>$500</s> $450</td>
+                    <td><s>$1200</s> $1080</td>
+                    <td><s>$2500</s> $2250</td>
+                </tr>
+                <tr>
+                    <th>Decerations</th>
+                    <td><s>$200</s> $180</td>
+                    <td><s>$400</s> $360</td>
+                    <td><s>$800</s> $720</td>
+                </tr>
+                <tr>
+                    <th>Venue Space</th>
+                    <td><s>$500</s> $450</td>
+                    <td><s>$1500</s> $1350</td>
+                    <td><s>$5000</s> $4500</td>
+                </tr>
+        </main>
+        <footer>
+            <p>TampaWeddingWizards@googlemail.com</p>
+            <p>137 Celebrity Drive</p>
+            <p>555-745-3982</p>
+            <p>TampaWeddingWizards©</p>
+        </footer>
+    </div>
+    </body>
+</html>
